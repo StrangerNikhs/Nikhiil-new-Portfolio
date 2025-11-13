@@ -16,7 +16,7 @@ const Work = ({ isDarkMode }) => {
       <h4 className="text-center mb-2 text-lg  ">My Portfolio</h4>
       <h2 className="text-center text-5xl dark:text-darkHover">My Latest Work</h2>
 
-      <p className="text-center max-w-2xl mx-auto mt-5 mb-12  ">
+      <p className="text-center max-w-2xl mx-auto mt-5 mb-6  ">
         Welcome to my portfolio! Here, you'll find a curated selection of my
         latest projects that showcase my skills and expertise in web
         development.
@@ -42,7 +42,7 @@ const Work = ({ isDarkMode }) => {
       </div>
       <a
         href=""
-        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
+        className="w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-10 hover:bg-lightHover duration-500 dark:text-white dark:border-white dark:hover:bg-darkHover"
       >
         Show More
         <Image

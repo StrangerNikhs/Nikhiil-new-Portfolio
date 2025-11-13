@@ -1,4 +1,5 @@
 import user_image from "./user-image.jpg";
+import certificate_icon from "./certificate-icon.png";
 import code_icon from "./code-icon.png";
 import code_icon_dark from "./code-icon-dark.png";
 import edu_icon from "./edu-icon.png";
@@ -76,6 +77,7 @@ export const assets = {
   send_icon,
   right_arrow_bold,
   right_arrow_bold_dark,
+  certificate_icon,
 };
 
 export const workData = [
@@ -135,7 +137,7 @@ export const infoList = [
     icon: assets.code_icon,
     iconDark: assets.code_icon_dark,
     title: "Languages",
-    description: "JavaScript,React Js,Node Js,MongoDB,Express Js",
+    description: "HTML5,CSS,JavaScript,React Js,NodeJs,MongoDB,ExpressJs",
   },
   {
     icon: assets.edu_icon,
@@ -148,6 +150,12 @@ export const infoList = [
     iconDark: assets.project_icon_dark,
     title: "Projects",
     description: "Built more than 5 projects",
+  },
+  {
+    icon: assets.certificate_icon,
+    iconDark: assets.certificate_icon,
+    title: "Certificates",
+    description: "CoreJava,Udemy,AIForAll",
   },
 ];
 

@@ -70,7 +70,7 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-auto sm:grid-cols-3 gap-6 max-w-2xl"
+            className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
