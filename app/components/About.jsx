@@ -59,10 +59,10 @@ const About = ({ isDarkMode }) => {
           className="flex-1 "
         >
           <p className="mb-10 max-w-2xl  ">
-            Enthusiastic and detail-oriented MERN Stack Developer with 2 Years of 
-            hands-on experience in React.js, Node.js, Express.js, and MongoDB.
-            Passionate about building secure, scalable, and responsive web
-            applications using modern tools and frameworks. Eager to apply
+            Enthusiastic and detail-oriented MERN Stack Developer with 2 Years
+            of hands-on experience in React.js, Node.js, Express.js, and
+            MongoDB. Passionate about building secure, scalable, and responsive
+            web applications using modern tools and frameworks. Eager to apply
             technical skills in a professional environment and contribute to
             innovative software solutions.
           </p>
@@ -70,12 +70,12 @@ const About = ({ isDarkMode }) => {
             initial={{ opacity: 0 }}
             whileInView={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 1 }}
-            className="grid grid-cols-1 sm:grid-cols-3 gap-6 max-w-2xl"
+            className="grid grid-cols-auto sm:grid-cols-3 gap-6 max-w-2xl"
           >
             {infoList.map(({ icon, iconDark, title, description }, index) => (
               <motion.li
                 whileHover={{ scale: 1.05 }}
-                className="border-[0.5px] border-gray-500 rounded-xl p-6 cursor-pointer hover:bg-lightHover hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white dark:hover:bg-darkHover"
+                className="border-[0.5px] border-gray-500 rounded-xl p-6 cursor-pointer  hover:-translate-y-1 duration-500 hover:shadow-black dark:border-white dark:hover:shadow-white "
                 key={index}
               >
                 <Image
@@ -83,7 +83,7 @@ const About = ({ isDarkMode }) => {
                   alt={title}
                   className="w-7 mt-3"
                 />
-                <h3 className="my-4 font-semibold text-gray-700 dark:text-white">
+                <h3 className="my-4 font-semibold text-gray-700 dark:text-white ">
                   {title}
                 </h3>
                 <p className="text-gray-600 text-sm dark:text-white/80">
@@ -109,7 +109,7 @@ const About = ({ isDarkMode }) => {
             {toolsData.map((tool, index) => (
               <motion.li
                 whileHover={{ scale: 1.1 }}
-                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500"
+                className="flex items-center justify-center w-12 sm:w-14 aspect-square border border-gray-400 rounded-lg cursor-pointer hover:-translate-y-1 duration-500 "
                 key={index}
               >
                 <Image src={tool} alt="Tool" className="w-5 sm:w-7" />
